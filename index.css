@@ -1,0 +1,66 @@
+@import url('bootsrap.min.css');
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-item {
+    margin-right: auto;
+}
+
+header.masthead {
+    padding-top: 30rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url('./Assets/FSUPC_Sunset.jpg');
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  header.masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  header.masthead h1 {
+    position: static;
+    margin-top:300px;
+    /* margin-bottom: 300px; */
+    font-size: 2rem;
+  }
+  
+  header.masthead p {
+    font-weight: 300;
+  }
+  
+  @media (min-width: 768px) {
+    header.masthead p {
+      font-size: 1.15rem;
+    }
+  }
+  
+  @media (min-width: 99px) {
+    header.masthead {
+      height: 100vh;
+      min-height: 650px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 120px) {
+    header.masthead h1 {
+      font-size: 4rem;
+    }
+  }
+
+.bg-home {
+    background: #782F40 !important;
+}
