@@ -61,6 +61,40 @@ header.masthead {
     }
   }
 
-.bg-home {
+  @media screen and (max-width: 800px) {
+    .img-disappear {display:none;}
+  }
+
+.bg-about {
     background: #782F40 !important;
 }
+.bg-boat {
+    background: #074996 !important;
+}
+
+.boat-header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.boat-carousel {
+  margin-bottom: 50px;
+  float: right;
+}
+
+.fsu-logo {
+  display: inline-block;
+  margin-left:auto;
+  margin-right: 50px;
+}
+
+.gcsc-logo {
+  display: inline-block;
+  margin-right:auto;
+  margin-left: 50px;
+}
+
+#logos {
+  text-align: center;
+}
+
