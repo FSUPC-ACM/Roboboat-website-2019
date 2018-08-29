@@ -72,8 +72,21 @@ header.masthead p {
   background: #074996 !important;
 }
 
+.bg-team {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+  padding-bottom: calc(30px);
+  background-image: url('./Assets/backgroundsample.jpg');
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .bg-media {
-  background: #f2f2f2 !important;
+  background: #4d4dff !important;
+  padding-bottom: calc(500px);
 }
 
 
@@ -117,6 +130,27 @@ header.masthead p {
 
 #logos {
   text-align: center;
+}
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #fff;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
 }
 
 
