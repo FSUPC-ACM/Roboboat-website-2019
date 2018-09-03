@@ -13,7 +13,7 @@ html, body {
 header.masthead {
     padding-top: 30rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url('./Assets/FSUPC_Sunset.jpg');
+    background-image: url('./FSUPC_Sunset.jpg');
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -82,19 +82,39 @@ header.masthead {
   float: right;
 }
 
-.fsu-logo {
+/* .fsu-logo {
+  width: 50%;
   display: inline-block;
-  margin-left:auto;
-  margin-right: 50px;
+  margin:50px 10px 10px 10px;
+  height: auto;
+
 }
 
 .gcsc-logo {
+  width: 50%;
   display: inline-block;
-  margin-right:auto;
-  margin-left: 50px;
-}
+  margin:50px 10px 10px 10px;
+  height: auto;
+} */
+.title-text {
+  /* text-align: center; */
+  /* padding: 10px 5px; */
+  font-size: 8vw;
 
-#logos {
-  text-align: center;
+}
+.logos {
+  padding-top: 50px;
+  padding-right: 5px;
+  padding-left:5px;
+  width: 50%;
+  /* float: left; */
+  /* position: absolute; */
+  max-width: 300px;
+  display: inline-block;
+  /* margin: auto; */
+  /* margin:50px 50px 0px 50px; */
+  height: auto;
+  max-width: 300px;
+  align-content: center;
 }
 
