@@ -134,7 +134,7 @@ header.masthead p {
 }
 
 .bg-media {
-  background: #4d4dff !important;
+  background: #074996 !important;
   padding-bottom: calc(500px);
 }
 
@@ -157,6 +157,16 @@ header.masthead p {
   margin-bottom: 25px;
 }
 
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  height: 100vh;
+
+}
+
 .carousel-right { 
   width: 48%; 
   float: right; 
@@ -164,6 +174,11 @@ header.masthead p {
 }
 
 .some-text { float: left; width: 48%; }
+
+.sponsor-logo {
+  max-width: 300px;
+  height: auto;
+}
 
 .logos {
   padding-top: 50px;
