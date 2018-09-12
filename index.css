@@ -21,7 +21,7 @@ body {
 }
 
 .col-1 {width: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   display: inline-block;
   max-width:800px;
@@ -84,7 +84,7 @@ margin: auto;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
 } */
 
 header.masthead hr {
@@ -220,6 +220,8 @@ section {
   padding-right: 5px;
   padding-left:5px;
   width: 50%;
+  min-width: 300px;
+  margin: 50px 20px;
   /* float: left; */
   /* position: absolute; */
   /* max-width: 300px; */
