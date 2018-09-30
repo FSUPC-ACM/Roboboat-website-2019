@@ -38,7 +38,7 @@ text-align: center;
 margin: auto;
 }
 .title-text {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   box-sizing: border-box;
   font-size: 8vw;
   display: block;  
