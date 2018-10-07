@@ -64,14 +64,21 @@ margin: auto;
 }
 
 .navbar {
+  margin:0;
+  /* max-height: 60px; */
+  line-height: 2.2;
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
   background-color: rgba(0,0,0,0.4);
   /* background: transparent; */
   border-color: transparent;
-  
 }
+
 
 .navbar-nav li>a:hover,.navbar-nav li>a:focus,.navbar-nav li.active {
   background-color:#000;
+  
 }
 
 .navbar li { color: #000 }
@@ -197,6 +204,10 @@ section {
   width: 48%; 
   float: right; 
   margin-bottom: 50px
+}
+
+.carousel-inner img {
+  margin: auto;
 }
 
 .footer-section {

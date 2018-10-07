@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./index.css">
     <title>Seminole Coast</title>
-    <link rel="shortcut icon" href="./Assets/hunt_eBL_icon.ico" />
+    <link rel="shortcut icon" href="./Assets/apple-icon-152x152.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -24,30 +24,32 @@
 
     <!-- Navbar -->
   <nav class="navbar fixed-top navbar-expand-sm">
-    <h4 class="navbar-brand" style="color: white;"><img src="./Assets/hunt_eBL_icon.ico" style="max-width: 30px; height: auto;"> Seminole Coast</h4>
+    <!-- <img src="./Assets/Seminole Coast v3 shadow.png" style="max-width: 50px; height: auto;"> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">
+              <img src="./Assets/Seminole Coast v3 shadow cropped.png" style="max-width: 40px; height: auto;">
+              <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">Our Mission</a>
+            <a class="nav-link" href="#about">About us</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#team">The Team</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#media-section">Gallery</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="#sponsors-section">Sponsors</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="#contact">Connect</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </nav>
@@ -57,11 +59,12 @@
           <div class="container" >
               <div  class="row">
                 <div style="margin: auto;";>
-                    <img class="col-1 logos" src="./Assets/fsupc.png">
-                    <img class="col-1 logos" src="./Assets/GCSC-Logo-Blue-Oval.png">
+                    <img class="logos" src="./Assets/Seminole Coast v3 shadow.png">
+                    <!-- <img class="col-1 logos" src="./Assets/fsupc.png">
+                    <img class="col-1 logos" src="./Assets/GCSC-Logo-Blue-Oval.png"> -->
                 </div>
               </div>
-              <div  class="row title-text" style="width:100%; padding-top: 11vw;">
+              <div  class="row title-text" style="width:100%; padding-top: 5vw;">
                 <h1 class="text-uppercase" style="text-align: center;">
                   <strong class="display-2" style="font-size: 5vw; text-align: center;">Seminole Coast<br>Roboboat 2019</strong>
                     <br><strong class="display-4" style="font-size: 4vw"></strong>
@@ -83,19 +86,36 @@
 
             <div class="row">
                 <div class="col">
-                  <font color=D4Af37>
-                    <div>
-                      <strong class="display-4">
-                        Seminole Coast is a cross-university team made up of students from Gulf Coast State College and Florida State University Panama City campus.
-                      </strong>
+                  
+                      <div id="team-carousel" class="carousel slide" data-ride="carousel" >
+                        <!-- <img src="./Assets/Team Photos/IMG_0515.jpg" style="max-width:50vw; height:auto;"> -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block" src="./Assets/Team Photos/IMG_0515.jpg" style="width: 50vw; height:auto;">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block" src="./Assets/Team Photos/IMG_0509.jpg" style="width: 50vw; height:auto;">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block" src="./Assets/Team Photos/IMG_0498.jpg" style="width: 50vw; height:auto;">
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <div style="padding-top:10px;">
+                      <font color=D4Af37>
+                        <strong>
+                          Seminole Coast is a cross-university team made up of students from Gulf Coast State College and Florida State University's Panama City Campus.
+                        </strong>
+                      </font>
                     </div>
-                  </font>
+                  
                 </div>
         </div>
     </section>
 
 <!-- The Team -->
-    <section class="bg-team" id="team" style="padding-top: 70px;">
+    <!-- <section class="bg-team" id="team" style="padding-top: 70px;">
         <div class="container">
             <div class="row">
               <div class="col-lg-12 mx-auto text-center">
@@ -256,10 +276,10 @@
           </div>
         </div>
           </div>
-    </section>
+    </section> -->
 
 <!-- Media -->
-    <section class="bg-media" id="media-section" style="padding-top: 70px;">
+    <!-- <section class="bg-media" id="media-section" style="padding-top: 70px;">
         <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto text-center">
@@ -290,7 +310,7 @@
                   </div>
             </div>
           </div>
-    </section>
+    </section> -->
 
 
 <!-- Sponsors -->
@@ -298,7 +318,7 @@
         <div class="container">
             <div class="row">
               <div class="col-lg-8 mx-auto text-center">
-                <h2 class="section-heading text-white"><font face="Lucida Console" color="660066"><b>Sponsors</b></font></h2>
+                <h2 class="section-heading text-white"><font face="Lucida Console" color="white"><b>Sponsors</b></font></h2>
               </div>
               <table style="width:100%; padding-top: 10px;">
                 <td>
@@ -309,11 +329,9 @@
         </div>
     </section>
 
-    <section id="contact" class="footer-section">
 
-    </section>
 <!-- Contact -->
-    <section class="contact-section">
+    <!-- <section class="contact-section">
       <div class="container">
         <div class="row" style="padding-top: 70px;" >
           <div class="col-lg-12 text-center">
@@ -346,9 +364,9 @@
         </div>
       </div>
     </section>
-    <section class="footer-section">
+  <section class="footer-section"> -->
 
-    </section>
+    <!-- </section> -->
   </body>
 
 </html>
