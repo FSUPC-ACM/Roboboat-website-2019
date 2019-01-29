@@ -1,8 +1,7 @@
 # Requirements
 
-WebsiteTeams must maintain a website documenting their development. 
-Layout and contents of the  website  are  left  for  the  teams  to  develop;  however,  
-the  website  should include  at  a minimum the following information:
+### WebsiteTeams must maintain a website documenting their development. 
+Layout and contents of the  website  are  left  for  the  teams  to  develop;  however,  the  website  should include  at  a minimum the following information:
 
 #### Team information (name and team contact information).
 #### Team member information (name, picture, contact information).
